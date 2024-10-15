@@ -100,3 +100,17 @@ class M2M100Translator:
     #     return [self.translate(text, tgt_lang, src_lang) for text in texts]
 
 
+
+
+
+
+
+
+
+
+INFO:     127.0.0.1:50881 - "GET /openapi.json HTTP/1.1" 200 OK
+    I'm thrilled to announce the launch of our latest product, [Product Name]! This innovative solution is      designed to [Briefly describe the product's benefits and features].     [Include a brief overview of the product's key features or benefits]      We believe that [Product Name] will be a game-changer for [Target audience]. To learn more about how it can help you [Mention a specific benefit], please visit our website at [Website link].      We're offering a limited-time discount of [Discount percentage] on your first purchase. Don't miss out on this opportunity to experience the future of [Product category]!      Best regards,     [Your Name]     [Your Title]     [Company Name]
+Entered translate function
+[{'type': 'text', 'content': "    I'm thrilled to announce the launch of our latest product, ["}, {'type': 'preserve', 'content': 'Product Name'}, {'type': 'text', 'content': "]! This innovative solution is      designed to [Briefly describe the product's benefits and features].     [Include a brief overview of the product's key features or benefits]      We believe that ["}, {'type': 'preserve', 'content': 'Product Name'}, {'type': 'text', 'content': '] will be a game-changer for ['}, {'type': 'preserve', 'content': 'Target audience'}, {'type': 'text', 'content': ']. To learn more about how it can help you [Mention a specific benefit], please visit our website at ['}, {'type': 'preserve', 'content': 'Website link'}, {'type': 'text', 'content': "].      We're offering a limited-time discount of [Discount percentage] on your first purchase. Don't miss out on this opportunity to experience the future of [Product category]!      Best regards,     [Your Name]     [Your Title]     ["}, {'type': 'preserve', 'content': 'Company Name'}, {'type': 'text', 'content': ']'}]
+Entered for loop
+INFO:     127.0.0.1:50908 - "POST /api/v1/m2m_translate HTTP/1.1" 500 Internal Server Error
